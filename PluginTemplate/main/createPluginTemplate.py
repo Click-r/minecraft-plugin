@@ -1,13 +1,6 @@
 import os
 import json
 
-# inputs:
-#  java.home
-#  groupId
-#  artifactId
-#  version
-#  name
-
 parsed = {"groupid": "", "artifactid": "", "version": "", "name": "", "new directory": "", "plugin name": ""}
 
 subname = lambda name: f"\\{name}"
