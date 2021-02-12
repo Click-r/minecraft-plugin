@@ -26,6 +26,7 @@ def init():
         parsed["java.home"] = os.environ.get("JAVA_HOME")
     except OSError:
         print("could not find the JAVA_HOME environment variable")
+        return 0
 
     global pom_content
     pom_content = ""
